@@ -19,5 +19,5 @@ var corsOptions = {
   
 app.use(cors(corsOptions));
 app.listen(port, () => {
-    console.log(`Escuchando http://localhost:${port}`);
+    console.log(`Escuchando: http://localhost:${port}`);
 })
